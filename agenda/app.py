@@ -1,7 +1,7 @@
 import os
 from test import test
     
-def app():
+def app_test():
 
     print("initializing..\n")
     
