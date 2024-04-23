@@ -16,4 +16,5 @@ class event():
         self.tags        = tags if tags else []
         self.location    = location
 
-    def to_json(self): return json.dump(self.__dict__, indent=4)
+    def __repr__(self):
+        return f"event(date={repr(self.date)}, duration={repr(self.duration)}, title={repr(self.title)}), description={repr(self.description)}, tags={repr(self.tags)}, location={repr(self.location)})"

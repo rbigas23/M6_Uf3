@@ -17,4 +17,4 @@ def app_test():
     input("\npress ENTER to exit\n")       
 
 if __name__ == "__main__":
-    app()
+    app_test()
