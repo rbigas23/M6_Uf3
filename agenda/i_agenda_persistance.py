@@ -1,5 +1,4 @@
-from abc import ABC, abstractmethod
-from global_imports import peer
+from global_imports import ABC, abstractmethod
 
 class i_agenda_persistance(ABC):
 
@@ -18,5 +17,4 @@ class i_agenda_persistance(ABC):
     #@abstractmethod
     #def delete_agenda():
     #    pass
-    
     

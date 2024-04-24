@@ -1,5 +1,4 @@
-from enum import Enum
-from global_imports import json
+from global_imports import Enum
 
 class event():
     
@@ -15,6 +14,3 @@ class event():
         self.description = description
         self.tags        = tags if tags else []
         self.location    = location
-
-    def __repr__(self):
-        return f"event(date={repr(self.date)}, duration={repr(self.duration)}, title={repr(self.title)}), description={repr(self.description)}, tags={repr(self.tags)}, location={repr(self.location)})"
