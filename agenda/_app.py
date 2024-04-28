@@ -3,7 +3,7 @@ from user_test import user_test
 from event_test import event_test
 
 
-def app_test():  # Hay que hacer tres opciones, una para cada clase de test (o no, como lo veas)
+def app_test(): 
 
     print("Initializing...\n")
 

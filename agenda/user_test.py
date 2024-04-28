@@ -27,7 +27,10 @@ class user_test(unittest.TestCase):
         print("Test de mostrado de usuario completado correctamente.")
 
     def edit_user_test(self): 
-        pass
+
+        self.assertTrue(self.user_handler.edit_user("Pau", {"name":"PAU_NUEVO_NOMBRE"}) == 1)
+        
+        print("Test de modificación de agenda completado correctamente.")
     
     def execute_all_tests(self):
         self.create_user_test()
